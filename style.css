@@ -1,0 +1,158 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #428bca;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #428bca;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #428bca;
+    color: #fff;
+}
+
+/* Features Section Styles */
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    margin-bottom: 40px;
+    flex-basis: calc(33.33% - 20px); /* Adjust as needed for spacing */
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+}
+
+/* Pricing Section Styles */
+#pricing {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing-plan {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-plan p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label, #contact input, #contact textarea, #contact button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #fff;
+    color: #428bca;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
